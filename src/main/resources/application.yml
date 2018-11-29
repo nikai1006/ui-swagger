@@ -1,0 +1,5 @@
+server:
+  port: 3300
+spring:
+  application:
+    name: swagger-bootstarp-ui
