@@ -40,6 +40,6 @@ task copyJarFile(type: Copy, dependsOn: 'build') {
 }
 
 task copyScript(type: Copy, dependsOn: 'copyJarFile') {
-    from("src/shell/run.sh")
+    from("src/main/shell/run.sh")
     into("build/")
 }
